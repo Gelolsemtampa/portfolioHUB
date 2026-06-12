@@ -6,233 +6,144 @@
     <title>Pietro Abreu | Portfólio</title>
 
     <link rel="stylesheet" href="style.css">
-
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
 
     <header>
-
-        <div class="logo">
-            PA
+        <div class="header-container">
+            <div class="logo">PA</div>
+            <nav>
+                <a href="#sobre">Sobre</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#experiencia">Experiência</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contato">Contato</a>
+            </nav>
         </div>
-
-        <nav>
-            <a href="#sobre">Sobre</a>
-            <a href="#habilidades">Habilidades</a>
-            <a href="#experiencia">Experiência</a>
-            <a href="#projetos">Projetos</a>
-            <a href="#contato">Contato</a>
-        </nav>
-
     </header>
 
     <section class="hero">
+        <div class="hero-container">
+            <div class="hero-text">
+                <span class="subtitle">Olá, eu sou</span>
+                <h1>Pietro Abreu</h1>
+                <h2>Desenvolvedor, <span class="highlight">Robótica</span> e Design</h2>
+                <p>
+                    Estudante de Engenharia da Computação apaixonado por
+                    tecnologia, automação, hardware e design.
+                </p>
+                <div class="buttons">
+                    <a href="https://github.com/Gelolsemtampa" target="_blank" class="btn primary">GitHub</a>
+                    <a href="https://www.linkedin.com/in/pietroforwork/" target="_blank" class="btn secondary">LinkedIn</a>
+                    <a href="https://www.behance.net/pietroabreus" target="_blank" class="btn secondary">Behance</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-border">
+                    <img src="assets/perfil.jpg" alt="Pietro Abreu">
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <div class="hero-text">
-
-            <span>Olá, eu sou</span>
-
-            <h1>Pietro Abreu</h1>
-
-            <h2>
-                Desenvolvedor, <span>Robótica</span> e Design
-            </h2>
-
+    <section id="sobre" class="section-padding">
+        <div class="container-sm">
+            <h2>Sobre mim</h2>
             <p>
-                Estudante de Engenharia da Computação apaixonado por
-                tecnologia, automação, hardware e design.
+                Sou estudante de Engenharia da Computação com experiência em
+                tecnologia, robótica, design e automação.
             </p>
-
-            <div class="buttons">
-
-                <a href="https://github.com/Gelolsemtampa" target="_blank">
-                    GitHub
-                </a>
-
-                <a href="https://www.linkedin.com/in/pietroforwork/" target="_blank">
-                    LinkedIn
-                </a>
-
-                <a href="https://www.behance.net/pietroabreus" target="_blank">
-                    Behance
-                </a>
-
-            </div>
-
+            <p>
+                Atualmente trabalho na escola SERIÖS como Técnico de TI,
+                atuando com redes de servidor, manutenção de hardware,
+                formatações e suporte técnico.
+            </p>
         </div>
-
-        <div class="hero-image">
-
-            <img src="assets/perfil.jpg" alt="Pietro Abreu">
-
-        </div>
-
     </section>
 
-    <section id="sobre">
-
-        <h2>Sobre mim</h2>
-
-        <p>
-            Sou estudante de Engenharia da Computação com experiência em
-            tecnologia, robótica, design e automação.
-        </p>
-
-        <p>
-            Atualmente trabalho na escola SERIÖS como Técnico de TI,
-            atuando com redes de servidor, manutenção de hardware,
-            formatações e suporte técnico.
-        </p>
-
-    </section>
-
-    <section id="habilidades">
-
-        <h2>Habilidades</h2>
-
-        <div class="cards">
-
-            <div class="card">
-                <h3>Conhecimento em Computador</h3>
-
-                <p>
-                    Domínio de sistemas, manutenção,
-                    hardware e softwares.
-                </p>
+    <section id="habilidades" class="section-padding bg-light">
+        <div class="container">
+            <h2>Habilidades</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <h3>Conhecimento em Computador</h3>
+                    <p>Domínio de sistemas, manutenção, hardware e softwares.</p>
+                </div>
+                <div class="card">
+                    <h3>Design</h3>
+                    <p>Conhecimento em composição visual, identidade e tipografia.</p>
+                </div>
+                <div class="card">
+                    <h3>Redes</h3>
+                    <p>Configuração e manutenção de redes e servidores.</p>
+                </div>
+                <div class="card">
+                    <h3>Robótica</h3>
+                    <p>Programação, montagem e automação de projetos robóticos.</p>
+                </div>
             </div>
-
-            <div class="card">
-                <h3>Design</h3>
-
-                <p>
-                    Conhecimento em composição visual,
-                    identidade e tipografia.
-                </p>
-            </div>
-
-            <div class="card">
-                <h3>Redes</h3>
-
-                <p>
-                    Configuração e manutenção de
-                    redes e servidores.
-                </p>
-            </div>
-
-            <div class="card">
-                <h3>Robótica</h3>
-
-                <p>
-                    Programação, montagem e automação
-                    de projetos robóticos.
-                </p>
-            </div>
-
         </div>
-
     </section>
 
-    <section id="experiencia">
-
-        <h2>Experiência</h2>
-
-        <div class="cards">
-
-            <div class="card">
-
-                <h3>Técnico de TI</h3>
-
-                <span>Escola SERIÖS</span>
-
-                <p>
-                    Trabalho com manutenção de hardware,
-                    redes, servidores, suporte técnico
-                    e formatação de computadores.
-                </p>
-
+    <section id="experiencia" class="section-padding">
+        <div class="container">
+            <h2>Experiência</h2>
+            <div class="cards-grid grid-2">
+                <div class="card exp-card">
+                    <h3>Técnico de TI</h3>
+                    <span class="company">Escola SERIÖS</span>
+                    <p>
+                        Trabalho com manutenção de hardware, redes, servidores, suporte técnico
+                        e formatação de computadores.
+                    </p>
+                </div>
+                <div class="card exp-card">
+                    <h3>Professor de Robótica</h3>
+                    <span class="company">Mearas Sports</span>
+                    <p>
+                        Ensino de robótica para crianças, programação de robôs e desenvolvimento
+                        lógico.
+                    </p>
+                </div>
             </div>
-
-            <div class="card">
-
-                <h3>Professor de Robótica</h3>
-
-                <span>Mearas Sports</span>
-
-                <p>
-                    Ensino de robótica para crianças,
-                    programação de robôs e desenvolvimento
-                    lógico.
-                </p>
-
-            </div>
-
         </div>
-
     </section>
 
-    <section id="projetos">
-
-        <h2>Projetos e Conquistas</h2>
-
-        <div class="cards">
-
-            <div class="card">
-
-                <h3>FLL - Master Piece</h3>
-
-                <p>
-                    Responsável pela construção e programação
-                    do robô vencedor do Troféu de Design de Robô.
-                </p>
-
+    <section id="projetos" class="section-padding bg-light">
+        <div class="container">
+            <h2>Projetos e Conquistas</h2>
+            <div class="cards-grid">
+                <div class="card project-card">
+                    <h3>FLL - Master Piece</h3>
+                    <p>Responsável pela construção e programação do robô vencedor do Troféu de Design de Robô.</p>
+                </div>
+                <div class="card project-card">
+                    <h3>Postura Inteligente</h3>
+                    <p>Sistema utilizando sensores para monitoramento de postura corporal.</p>
+                </div>
+                <div class="card project-card">
+                    <h3>Projetos com Raspberry Pi</h3>
+                    <p>Desenvolvimento de automações e dispositivos personalizados.</p>
+                </div>
             </div>
-
-            <div class="card">
-
-                <h3>Postura Inteligente</h3>
-
-                <p>
-                    Sistema utilizando sensores para monitoramento
-                    de postura corporal.
-                </p>
-
-            </div>
-
-            <div class="card">
-
-                <h3>Projetos com Raspberry Pi</h3>
-
-                <p>
-                    Desenvolvimento de automações e dispositivos
-                    personalizados.
-                </p>
-
-            </div>
-
         </div>
-
     </section>
 
-    <section id="contato">
-
-        <h2>Contato</h2>
-
-        <p>Email: pietroforwork@gmail.com</p>
-
-        <p>LinkedIn: linkedin.com/in/pietroforwork</p>
-
-        <p>Behance: behance.net/pietroabreus</p>
-
+    <section id="contato" class="section-padding">
+        <div class="container-sm text-center">
+            <h2>Contato</h2>
+            <p class="contato-intro">Gostou do meu trabalho? Vamos conversar!</p>
+            <div class="contato-info">
+                <p><strong>Email:</strong> <a href="mailto:pietroforwork@gmail.com">pietroforwork@gmail.com</a></p>
+                <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/pietroforwork" target="_blank">linkedin.com/in/pietroforwork</a></p>
+                <p><strong>Behance:</strong> <a href="https://behance.net/pietroabreus" target="_blank">behance.net/pietroabreus</a></p>
+            </div>
+        </div>
     </section>
 
     <footer>
-
-        <p>
-            © 2026 Pietro Abreu. Todos os direitos reservados.
-        </p>
-
+        <p>© 2026 Pietro Abreu. Todos os direitos reservados.</p>
     </footer>
 
 </body>
